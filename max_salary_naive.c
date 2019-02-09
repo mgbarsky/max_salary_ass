@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "max_salary.h"
 
 int * best_arr;
 
@@ -25,12 +25,13 @@ void heap_permutation(int a[], int size, int n)
         heap_permutation(a,size-1,n); 
   
         // if size is odd, swap first and last element 
-        if (size%2==1) 
-            swap(a[0], a[size-1]); 
-  
+        if (size%2==1) {
+            SWAP(a[0], a[size-1]); 
+		}
         // If size is even, swap ith and last element 
-        else
-            swap(a[i], a[size-1]); 
+        else{
+            SWAP(a[i], a[size-1]);
+		}			
     } 
 } 
   
