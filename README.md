@@ -28,3 +28,5 @@ Thus, your main task is to correctly implement a greedy move in such a way that 
 In addition to this 'challenging' task, in this assignment you would need to write your own <code>make</code> file and your own stress test. In the stress test, you would need to compare the correctness of your greedy algorithm to the correctnes of the naive implementation of the exhaustive search, which will test all possible concatenations of given numbers, and will select the best one.
 
 The only starter code provided for this assignment is an implementation of the Heap’s algorithm for generating all permutations in an array of integers.
+
+<strong>Please follow the style of the previous 2 programming assignments and use them as a template. It is very important that you learn how to implement algorithms in a consistent way.</strong>
